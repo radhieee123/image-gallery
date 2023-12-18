@@ -1,0 +1,75 @@
+.gallery-image{
+    height: 15rem;
+    width: auto;
+}
+
+.thumbnail {
+    width: auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+}
+
+
+.react-responsive-modal-modal {
+    max-width: 90vw;
+    height: 80%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    background: #ffffff;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+    margin: 1.2rem;
+    padding: 1.2rem;
+}
+
+.carousel-root {
+    height: 95% !important
+}
+
+.carousel-slider {
+    width: 100%;
+    height: 90%;
+}
+
+.carousel .slider-wrapper {
+    /* overflow: hidden; */
+    height: 100%;
+    margin: auto;
+    width: auto;
+    transition: height .15s ease-in;
+}
+
+.carousel .slider-wrapper.axis-horizontal .slider {
+    height: 100%;
+}
+
+.image-container {
+    height: 100%;
+}
+
+.react-responsive-modal-closeButton {
+    top: 0%;
+    right: 0%;
+}
+
+@media screen and (max-width: 1450px) {
+    .gallery {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .gallery {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .gallery {
+        grid-template-columns: auto;
+    }
+}

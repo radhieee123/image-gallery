@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  background-color: #e4e4e4;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.photo-gallery-heading {
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+ .photo-gallery-description {
+    color: dimgrey;
+    font-family: system-ui;
+ }
+
+.photo-pills {
+  background-color: white;
+  border: 1.5px solid #abdac0;
+  color: black;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  height: 29px;
+  font-weight: 600;
+}
+
+.selected {
+  background-color: #abdac0;
+}
+
+.pills-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.navigation {
+    display: table;
+    margin-bottom: 5%;
+}
+
+.heading-page {
+  margin-bottom: 0;
+}
+
+.pages-routing {
+  margin-left: 1rem;
+}
+
+.routing-button {
+  color: blue;
+  font-size: x-small;
+  border: none;
+  background-color: inherit;
+}
+
+.photo-gallery-description {
+  margin-bottom: 12px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .react-responsive-modal-modal{
+  width: fit-content;
+  max-width: calc(100% -100px);
+} */
